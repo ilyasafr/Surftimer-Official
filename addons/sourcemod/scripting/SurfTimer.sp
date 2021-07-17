@@ -1661,7 +1661,7 @@ char RadioCMDS[][] =  // Disable radio commands
 	"coverme", "takepoint", "holdpos", "regroup", "followme", "takingfire", "go", "fallback", "sticktog",
 	"getinpos", "stormfront", "report", "roger", "enemyspot", "needbackup", "sectorclear", "inposition",
 	"reportingin", "getout", "negative", "enemydown", "cheer", "thanks", "nice", "compliment", "go_a",
-	"go_b", "sorry", "needrop"
+	"go_b", "sorry", "needrop", "deathcry"
 };
 
 /*======  End of Declarations  ======*/
