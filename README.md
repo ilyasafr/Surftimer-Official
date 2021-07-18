@@ -4,32 +4,32 @@
 
 ## Project Goals
 
-As you probably all know there are quite some bugs in all open-source versions of cksurf or surftimer.(yep and in anything beyond 285)
-[Our](https://www.youtube.com/watch?v=U06jlgpMtQs) main goal with this project to have a bug-free, properly optimized surf timer that would work as we all expect it to, across ~~all~~ [Our](https://www.youtube.com/watch?v=U06jlgpMtQs) configuration~~s~~.
-Because of this, [we](https://www.youtube.com/watch?v=U06jlgpMtQs) will be putting new features and additions on the side, as they can potentially introduce new, unknown issues and there's plenty of those already.(no shit)
+Currently working on [adding prestrafe messages and compare also 128 checkpoints/stages and getting rid of old speed limiter](https://github.com/qawery-just-sad/Surftimer-Official/pull/48)
 
 **Does it mean this version is buggy?**
 
-Yes
+Maybe, it's less buggy than any other fork, and defo better than main repo
 
-**Pull requests and any contributions are (not) welcome ~~and encouraged!~~ (if you wanna contribute go there and help those poor souls https://github.com/surftimer/Surftimer-olokos)**
+## **Pull requests and any contributions are (not) welcome ~~and encouraged!~~ ~~(if you wanna contribute go there and help those poor souls https://github.com/surftimer/Surftimer-official)~~**
+Why? because [I](https://github.com/qawery-just-sad) believe in proprietary software (sorry open source guys u suck and u don't even know how much), If I see that your pr is good I might consider adding it but it's not a guarantee.
+Also don't think that anyone at this point wanna help this project, if you wanna be helpful go to [Bara's discord](https://discord.gg/f96vDPMa7P) and help him with [fuckTimer](https://github.com/fuckTimer).
 
 ## Installation and Requirements
 * [SourceMod 1.10](https://www.sourcemod.net/downloads.php?branch=stable)
 * [Metamod 1.10](https://www.sourcemm.net/downloads.php/?branch=stable)
-* [SourceMod-Discord API](https://github.com/Deathknife/sourcemod-discord)
 * A MySQL Database (MySQL 5.7, MySQL 8+, MariaDB supported)
 
 **Extensions:**
 * [DHooks](https://forums.alliedmods.net/showthread.php?t=180114) - **Recommended:** [Detours Build](https://forums.alliedmods.net/showpost.php?p=2588686&postcount=589) for SourceMod 1.10 Stable
-* [SMJansson](https://forums.alliedmods.net/showthread.php?t=184604)
-* [SteamWorks](https://forums.alliedmods.net/showthread.php?t=229556)
-* [SMJansson](https://github.com/JoinedSenses/SourceMod-IncludeLibrary/blob/master/include/smjansson.inc)
 * [SMLib (Transitional Syntax Branch)](https://github.com/bcserv/smlib/tree/transitional_syntax)
 * [SourceMod Includes](https://www.sourcemod.net/downloads.php?branch=stable)
-* [Sourcemod-Discord API](https://github.com/Deathknife/sourcemod-discord)
-* [SteamWorks](https://forums.alliedmods.net/showthread.php?t=229556)
 * [AutoExecConfig](https://github.com/Impact123/AutoExecConfig)
+
+## I NEED HELP
+1st Step - check if you have something called brain
+2nd Step - google/alliedmodders
+3rd Step - it never hurts to try it (when i say it i mean the thing you wonder about)
+4th Step - there is that [SurfTimer discord](https://discord.gg/xDtMpPm) (PLZ don't @fluffys he hasn't been active on development for ages) also discord has this nice thing called **SEARCH** so u know
 
 ## Credits
 
@@ -47,7 +47,7 @@ Yes
 
 Current dev crew over at https://github.com/surftimer/Surftimer-olokos
 
-*	[Ace](https://github.com/13ace37) [xace.ch](https://xace.ch) (actually ace just left after 285 release [nice move])
-*	[olokos](https://github.com/olokos) [Steam](https://steamcommunity.com/id/olokos/) [My server](https://kiepownica.pl/)
+*	[Ace](https://github.com/13ace37) (actually ace just left after 285 release [nice move])
+*	[olokos](https://github.com/olokos)
 *	and many, many more people who contributed to the project!
 *	_Like @Bara, @dPexxIAM, @LubricantJam_

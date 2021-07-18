@@ -1,5 +1,11 @@
 # Changelog
 
+[2021-07-17 - Version 3.1.9]
+---
+- Added new radio command to block list
+- Removed discord webhooks for bugs, call admin, server map record, server bonus record.
+Please use [Sarrus1's plugin](https://github.com/Sarrus1/SurfTimer-discord)
+
 [2021-05-30 - Version 3.1.8]
 ---
 - Fixed bug when teleporting to stages
