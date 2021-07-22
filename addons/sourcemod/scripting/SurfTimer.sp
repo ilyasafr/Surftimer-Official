@@ -1785,8 +1785,11 @@ public void OnMapStart()
 	Format(g_szMapName, sizeof(g_szMapName), "%s", mapPieces[lastPiece - 1]);
 
 	// Debug Logging
-	if (!DirExists("addons/sourcemod/logs/surftimer"))
-		CreateDirectory("addons/sourcemod/logs/surftimer", 511);
+	char path[PLATFORM_MAX_PATH];
+	BuildPath(Path_SM, path, sizeof(path), "logs/surftimer");
+	
+	if (!DirExists(path))
+		CreateDirectory(path, 511);
 	BuildPath(Path_SM, g_szLogFile, sizeof(g_szLogFile), "logs/surftimer/%s.log", g_szMapName);
 
 	// Get map maxvelocity
