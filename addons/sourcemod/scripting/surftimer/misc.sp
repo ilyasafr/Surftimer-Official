@@ -2008,7 +2008,7 @@ stock void MapFinishedMsgs(int client, int rankThisRun = 0)
 				db_insertAnnouncement(szName, g_szMapName, 0, g_szFinalTime[client], 0, 0);
 			}
 			
-			SendNewRecordForward(client, 0, szRecordDiff, false);
+			SendNewRecordForward(client, 0, szRecordDiff);
 		}
 
 		if (g_bTop10Time[client])
